@@ -1,0 +1,168 @@
+@import url('http://fonts.cdnfonts.com/css/graphik?styles=44660,44656,44658,44652,44650');
+*{
+    font-family: 'Graphik', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.bdr-rad{
+    border-radius: 0 0 10px 0;
+}
+.all{
+    color: rgb(231, 51, 43);
+    color: rgb(120, 120, 120);
+    color: rgb(88, 88, 88);
+}
+
+/* HEADER LAYOUT */
+.header{
+    margin-right: 0;
+    position: fixed; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30%;
+    align-items: center;
+    padding: 2% 8%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+.header-img{
+    width: 10%;
+}
+.header-links-wrapper{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-link{
+    color: rgb(120, 120, 120);
+    font-size: 1em;
+    height: 3.5em;
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.header-link:hover{
+    background-color: rgb(25, 118, 210,0.1);
+}
+.header-link:active{
+    border-bottom: solid 2px rgb(231, 51, 43);
+    color: black;
+}
+.header-btn{
+    width: 30%;
+    height: 3em;
+    background-color: rgb(231, 51, 43);
+    color: white;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;    
+}
+
+/* HOME SECTION LAYOUT */
+.home-section{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20% 8%;
+}
+.left-home-section{
+    width: 50%;
+    text-align: left;
+}
+.left-home-btn{
+    display: flex;
+    gap: 3%;
+}
+.left-home-btn> button{
+    width: 50%;
+    height: 3em;
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+}
+.hire-talent{
+    background-color: rgb(231, 51, 43);
+}
+.join-talent{
+    background-color: rgb(88, 88, 88);
+}
+.right-home-section{
+    width: 30%;
+}
+.right-home-section > img{
+    width: 100%;
+    height: 25em;
+}
+
+
+/* IMPACT SECTION LAYOUT */
+.impact-section{
+    background-image: url("icons/background-img.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10% 8%;
+}
+.left-impact-section{
+    width: 40%;
+    text-align: left;
+}
+.countries{
+    display: flex;
+    gap: 2%;
+}
+.country{
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+.right-impact-section{
+    width: 40%;
+}
+.right-impact-section> img{
+    width: 100%;
+    height: 25em;
+}
+
+/* WHY US LAYOUT */
+.why-us-section{
+    padding: 8% 8%;
+}
+
+.skills-div{
+    display: flex;
+    padding-right: 16%;
+    gap: 3%;
+    justify-content: space-between;
+}
+.skill{
+    background-color: rgb(120, 120, 120);
+    border: none;
+    border-radius: 5px;
+    height: 3em;
+    transition: 0.2s;
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill:hover{
+    margin-top: -5px;
+}
